@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c5eecfc-27f2-49ba-abcb-031ec1be66a9" name="Changes" comment="adding controller and service">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ijoapp/ijoapp/energy/EnergyExtraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ijoapp/ijoapp/energy/EnergyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ijoapp/ijoapp/energy/EnergyService.java" afterDir="false" />
-    </list>
+    <list default="true" id="4c5eecfc-27f2-49ba-abcb-031ec1be66a9" name="Changes" comment="adding more class" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +88,7 @@
       <workItem from="1664032893766" duration="551000" />
       <workItem from="1664037246582" duration="31000" />
       <workItem from="1664037292709" duration="1686000" />
-      <workItem from="1664039614322" duration="1669000" />
+      <workItem from="1664039614322" duration="2471000" />
     </task>
     <task id="LOCAL-00001" summary="adding one class">
       <created>1664040660797</created>
@@ -114,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664040876366</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding more class">
+      <created>1664044324359</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664044324359</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +139,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="adding one class" />
     <MESSAGE value="adding controller and service" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding controller and service" />
+    <MESSAGE value="adding more class" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding more class" />
   </component>
 </project>

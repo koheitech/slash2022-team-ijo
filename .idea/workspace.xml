@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c5eecfc-27f2-49ba-abcb-031ec1be66a9" name="Changes" comment="" />
+    <list default="true" id="4c5eecfc-27f2-49ba-abcb-031ec1be66a9" name="Changes" comment="adding one class" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,6 +34,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2FDhrvS7qMfvXKquBumcON003EX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -74,7 +88,16 @@
       <workItem from="1664032893766" duration="551000" />
       <workItem from="1664037246582" duration="31000" />
       <workItem from="1664037292709" duration="1686000" />
+      <workItem from="1664039614322" duration="871000" />
     </task>
+    <task id="LOCAL-00001" summary="adding one class">
+      <created>1664040660797</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664040660797</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,5 +116,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="adding one class" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding one class" />
   </component>
 </project>

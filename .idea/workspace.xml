@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c5eecfc-27f2-49ba-abcb-031ec1be66a9" name="Changes" comment="adding more class" />
+    <list default="true" id="4c5eecfc-27f2-49ba-abcb-031ec1be66a9" name="Changes" comment="adding more class">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ijoapp/ijoapp/energy/Energy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ijoapp/ijoapp/energy/Energy.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +90,7 @@
       <workItem from="1664032893766" duration="551000" />
       <workItem from="1664037246582" duration="31000" />
       <workItem from="1664037292709" duration="1686000" />
-      <workItem from="1664039614322" duration="2471000" />
+      <workItem from="1664039614322" duration="2925000" />
     </task>
     <task id="LOCAL-00001" summary="adding one class">
       <created>1664040660797</created>
@@ -118,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664044324359</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adding more class">
+      <created>1664045103695</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664045103695</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

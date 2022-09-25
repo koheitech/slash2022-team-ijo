@@ -21,7 +21,7 @@ public class EnergyController {
         return energyService.getEnergies();
     }
 
-    @PostMapping
+    @PostMapping // Unable to do POST
     public void registerNewEnergy(@RequestBody Energy energy){
         energyService.addNewEnergy(energy);
     }

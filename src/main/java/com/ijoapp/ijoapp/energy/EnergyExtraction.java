@@ -25,7 +25,7 @@ public class EnergyExtraction {
                 = new BufferedReader(new InputStreamReader(
                 process.getInputStream()));
         String s = null;
-        for (int i=0;i<10;i++){
+        for (int i=0;i<2;i++){
             if ((s = stdInput.readLine()) != null) {
                 System.out.println(s);
                 this.data.add(s);

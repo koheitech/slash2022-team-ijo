@@ -1,0 +1,39 @@
+POST http://localhost:8080/api/v1/energy
+Content-Type: application/json
+
+{
+  "dateTime":"2022/09/25 11:04:58",
+  "processes":"Processes: 414 total, 5 running, 409 sleeping, 3605 threads "
+}
+
+###
+
+POST http://localhost:8080/api/v1/energy
+Content-Type: application/json
+
+{
+  "dateTime":"2022/09/25 11:04:58",
+  "processes":"Processes: 414 total, 5 running, 409 sleeping, 3605 threads "
+}
+
+###
+
+POST http://localhost:8080/api/v1/energy
+Content-Type: application/json
+
+{ "loadAvg":"Load Avg: 2.76, 2.54, 2.47 ",
+  "cpu":"CPU usage: 6.17% user, 16.79% sys, 77.2% idle ",
+  "physMem":"PhysMem: 15G used (1901M wired), 93M unused.",
+  "vm":"VM: 203T vsize, 3831M framework vsize, 136259(0) swapins, 350832(0) swapouts.",
+  "disks":"Disks: 4992999/85G read, 3293926/52G written.",
+  "dateTime":"2022/09/25 11:04:58",
+  "sharedLibs":"SharedLibs: 344M resident, 80M data, 20M linkedit.",
+  "memRegions":"MemRegions: 669584 total, 3591M resident, 85M private, 1548M shared.",
+  "networks":"Networks: packets: 16223383/6541M in, 6679470/834M out.",
+  "processes":"Processes: 414 total, 5 running, 409 sleeping, 3605 threads "
+}
+
+<> 2022-09-25T111608.415.json
+
+###
+

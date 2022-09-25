@@ -4,8 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c5eecfc-27f2-49ba-abcb-031ec1be66a9" name="Changes" comment="adding Controller tag">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="4c5eecfc-27f2-49ba-abcb-031ec1be66a9" name="Changes" comment="adding dependencies for postgreSQL">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ijoapp/ijoapp/energy/EnergyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ijoapp/ijoapp/energy/EnergyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ijoapp/ijoapp/IjoAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ijoapp/ijoapp/IjoAppApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ijoapp/ijoapp/energy/Energy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ijoapp/ijoapp/energy/Energy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ijoapp/ijoapp/energy/EnergyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ijoapp/ijoapp/energy/EnergyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ijoapp/ijoapp/energy/EnergyExtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ijoapp/ijoapp/energy/EnergyExtraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ijoapp/ijoapp/energy/EnergyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ijoapp/ijoapp/energy/EnergyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/App.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,11 +36,15 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
@@ -52,20 +67,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "spring.configuration.checksum": "b42a9cb0581852c0c1d811ea1126fcd7"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
-}</component>
-  <component name="RunManager" selected="Application.Ijo-App">
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.IjoAppApplication">
     <configuration name="Ijo-App" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="org.app.App" />
-      <module name="Ijo-App" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.ijoapp.ijoapp.IjoAppApplication" />
+      <module name="ijo-app" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -90,7 +120,8 @@
       <workItem from="1664032893766" duration="551000" />
       <workItem from="1664037246582" duration="31000" />
       <workItem from="1664037292709" duration="1686000" />
-      <workItem from="1664039614322" duration="4574000" />
+      <workItem from="1664039614322" duration="5102000" />
+      <workItem from="1664048064017" duration="11220000" />
     </task>
     <task id="LOCAL-00001" summary="adding one class">
       <created>1664040660797</created>
@@ -141,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664047468378</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="adding dependencies for postgreSQL">
+      <created>1664047555115</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664047555115</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +203,7 @@
     <MESSAGE value="adding more class" />
     <MESSAGE value="adding Entity Identity" />
     <MESSAGE value="adding Controller tag" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding Controller tag" />
+    <MESSAGE value="adding dependencies for postgreSQL" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding dependencies for postgreSQL" />
   </component>
 </project>
